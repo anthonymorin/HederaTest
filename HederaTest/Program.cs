@@ -54,13 +54,19 @@ namespace HederaTest
         {
             try
             {
-                Address address = new Address(0, 0, AccountId);
+                Address 
+                    address = new Address(0, 0, AccountId);
+                Gateway 
+                    gateway = new Gateway(Program.gateway, 0, 0, 3);
 
-                Gateway gateway = new Gateway(Program.gateway, 0, 0, 3);
+                await using Client client = 
+                    new Client(ctx => 
+                    {
+                        ctx.Gateway = gateway; 
+                    });
 
-                await using Client client = new Client(ctx => { ctx.Gateway = gateway; });
-
-                AccountBalances balances = await client.GetAccountBalancesAsync(address);
+                AccountBalances 
+                    balances = await client.GetAccountBalancesAsync(address);
 
                 Console.WriteLine($"Account 0.0.{address.AccountNum}");
 
