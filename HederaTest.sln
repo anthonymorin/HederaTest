@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HederaTest", "HederaTest\HederaTest.csproj", "{40258E75-EBAA-4C05-8E46-CF459C9DACAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40258E75-EBAA-4C05-8E46-CF459C9DACAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40258E75-EBAA-4C05-8E46-CF459C9DACAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40258E75-EBAA-4C05-8E46-CF459C9DACAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40258E75-EBAA-4C05-8E46-CF459C9DACAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C388767E-4A49-4046-886C-81B23597BA51}
+	EndGlobalSection
+EndGlobal

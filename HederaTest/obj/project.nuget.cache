@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "65MxJ/FYtDrwbvPfcqHJYhq/d8wsxydJ/d1p8q0Fb+RFRHZaD+ny6xTbdphBovIsKp6pUTH28uzWNBOlQ+43KQ==",
+  "success": true,
+  "projectFilePath": "C:\\UNH\\GitHub\\HederaTest\\HederaTest\\HederaTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\antho\\.nuget\\packages\\bouncycastle.netcoresdk\\1.9.3.1\\bouncycastle.netcoresdk.1.9.3.1.nupkg.sha512",
+    "C:\\Users\\antho\\.nuget\\packages\\google.protobuf\\3.15.8\\google.protobuf.3.15.8.nupkg.sha512",
+    "C:\\Users\\antho\\.nuget\\packages\\grpc.core\\2.37.0\\grpc.core.2.37.0.nupkg.sha512",
+    "C:\\Users\\antho\\.nuget\\packages\\grpc.core.api\\2.37.0\\grpc.core.api.2.37.0.nupkg.sha512",
+    "C:\\Users\\antho\\.nuget\\packages\\hashgraph\\8.0.0\\hashgraph.8.0.0.nupkg.sha512",
+    "C:\\Users\\antho\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\antho\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}
